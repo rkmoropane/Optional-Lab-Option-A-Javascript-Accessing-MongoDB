@@ -13,7 +13,7 @@ async function main() {
     // Constructing the MongoDB connection URL  
     // const url = `mongodb://${user}:${password}@${host}:27017/?authSource=admin`;  
     const user = process.env.MONGO_USERNAME;
-    const password = 'mXZME97lskUYAMxQDSCHkf1L' // process.env.MONGO_PASSWORD;
+    const password = git addprocess.env.MONGO_PASSWORD;
     const host = process.env.MONGO_HOST; 
     
     console.log("Credentials:", user, password, host);
